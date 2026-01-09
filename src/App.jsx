@@ -48,7 +48,7 @@ function App() {
         </div>
       ))}
 
-      <button onClick={addTimeField}>Add Time</button>
+      <button onClick={addTimeField}>Add Times</button>
 
       <h3 style={{ marginTop: "20px" }}>
         Total Time: {minutesToTime(totalMinutes)}
