@@ -5,11 +5,12 @@
   "type": "module",
   "homepage": "https://jilsonjoy1998.github.io/hourCal",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }, 
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
